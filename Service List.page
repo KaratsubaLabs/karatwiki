@@ -1,0 +1,12 @@
+---
+format: Markdown
+...
+
+KaratsubaLabs has a variety of self hosted services, all of them being free and open source software.
+
+- [searx](https://searx.karatsubalabs.com): meta search engine
+- [gitea](https://git.karatsubalabs.com): git server and development platform
+- [kanboard](https://todo.karatsubalabs.com): kanban board
+- [gitit](https://wiki.karatsubalabs.com): this site
+- [drone](https://drone.karatsubalabs.com): ci/cd
+- [codimd](https://md.karatsubalabs.com): cooperative markdown editor
