@@ -1,0 +1,19 @@
+---
+format: Markdown
+...
+
+# General Purpose Servers
+
+## *新宿 (Shinjuku)*
+Currently Hosts all of KaratsubaLabs' services  
+
+**Specs**  
+- Intel Xeon E5-2651V2 1.8GHz 12-core CPU  
+- Intel Q77 Chipset  
+- 64GB Quad Channel DDR3-1066  
+- NVIDIA GeForce GT710 1GB DDR3  
+- 500GB Crucial MX500 SSD
+- 640GB WD Blue 5200RPM Backup Volume
+- 2TB Seagate Ironwolf NAS 7200RPM (x2)
+
+**Services**  
