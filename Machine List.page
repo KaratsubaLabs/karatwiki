@@ -17,3 +17,19 @@ Currently Hosts all of KaratsubaLabs' services
 - 2TB Seagate Ironwolf NAS 7200RPM (x2)
 
 **Services**  
+
+
+# Offsite Servers
+
+## *歌舞伎町 (Kabukicho)*
+Oracle VPS hosting our VPN and Sashimi, the Lab's downtime monitor
+
+**Specs**  
+- Ampere Altra 1-core CPU  
+- 4GB RAM  
+- 48GB SSD  
+- 1Gbps network connection  
+
+**Services**  
+- OpenVPN  
+- Sashimi  
