@@ -1,0 +1,17 @@
+## Background
+
+The main router runs OpenWRT.  It can be configured either by the web ui or by sshing into the router.
+The router has 4 switch ports, each connected to the wall ethernet port in the individual rooms.
+
+If configuring the router through ssh, the main config file is at `/etc/config/network`, just make sure to run 
+```
+$ /etc/init.d/network reload
+```
+after editing the config.
+
+## VLAN list
+
+
+## Resources
+- [openwrt config basics](https://openwrt.org/docs/guide-user/base-system/basic-networking)
+- [openwrt creating new VLANs](https://medium.com/openwrt-iot/openwrt-configure-a-vlan-900fa64600e5)
