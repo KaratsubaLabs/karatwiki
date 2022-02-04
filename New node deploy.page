@@ -1,0 +1,22 @@
+
+# Deploying a new node
+
+Each node should run Debian 11.
+
+## Installation Process
+
+This is the process to follow when setting up a new node to host karatsuba services.
+When selecting packages to install, uncheck all except base. Create user named `dev` to use as non-root user.
+
+## Postinstall
+
+Install an openssh server so ansible can have access to the system.
+```
+$ apt install openssh-server
+```
+Next give the dev user sudo
+```
+$ apt install ssh
+$ usermod -aG sudo dev
+```
+
