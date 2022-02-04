@@ -19,5 +19,6 @@ format: Markdown
 
 ## Developer/Sysadmin Guides
 
+- [New node deploy]()
 - [Adding a new service]()
 - [Lab network configuration]()
