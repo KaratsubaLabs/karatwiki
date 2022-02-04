@@ -1,4 +1,3 @@
-
 # Deploying a new node
 
 Each node should run Debian 11.
@@ -19,4 +18,13 @@ Next give the dev user sudo
 $ apt install ssh
 $ usermod -aG sudo dev
 ```
+
+## Deploy front proxy and vpn
+
+Before deploying any services we need to set up the envoy proxy and establish a vpn connection to `front-vpn`.
+```
+$ ansible-playbook -K front-envoy/deploy.yml
+```
+Now copy the wireguard peer config file from `front-vpn` to `front-envoy` at `/config/wg0.conf`. Now just restart the vpn container and the connection should be up.
+
 
